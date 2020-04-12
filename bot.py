@@ -52,4 +52,4 @@ async def on_message(message):
         embed.add_field(name="*ban", value="แบนคนที่อยู่ในเซิฟเวอร์นี้")
         await message.channel.send(content=None, embed=embed)
 
-client.run('Njk4NTQxNjY2ODA5Njc1ODA3.XpHo_Q.5Joi706vzc6hwQ-YL5FVm7gJH74')
+client.login(process.env.BOT_TOKEN)
